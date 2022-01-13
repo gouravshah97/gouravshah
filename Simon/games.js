@@ -39,6 +39,11 @@ $(document).keypress(function() {
   gameStart();
 })
 
+
+$(document).click(function(event) {
+  gameStart();
+})
+
 function gameStart() {
   if (isGameStarted !== true) {
     isGameStarted = true;
