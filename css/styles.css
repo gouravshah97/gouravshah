@@ -681,3 +681,10 @@ li {
 .certificates .icon-box:hover h4 a, .certificates .icon-box:hover p {
   color: #fff;
 }
+
+
+.disclaimer{
+
+  font-size: 15px;
+  font-style: italic;
+}
