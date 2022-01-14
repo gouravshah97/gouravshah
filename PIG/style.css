@@ -853,7 +853,7 @@ i {
   }
 
   .player-name {
-    font-size: .8rem;
+    font-size: .5rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.12rem;
@@ -865,7 +865,7 @@ i {
 
   .player-score {
     text-align: center;
-    font-size: .8rem;
+    font-size: .5rem;
     font-weight: 100;
     color: #EB4D4D;
     margin-bottom: 3rem;
@@ -907,7 +907,7 @@ i {
   }
 
   .player-current-score {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     overflow: auto;
   }
 
