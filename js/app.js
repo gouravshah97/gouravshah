@@ -125,6 +125,7 @@
   },function(e) {
     var skill = e.target.closest('.skills-icon');
     var skillName = ($(this).children(skill)[1]);
+    
 
     if(temp==='HTML'){
       temp='';
@@ -134,10 +135,11 @@
       temp='';
       skillName.textContent='CSS';
     }
-    else if (skillName.textContent==='BOOTSTRAP') {
+    else if (temp==='BOOTSTRAP') {
       temp='';
       skillName.textContent='BOOTSTRAP';
     }
+
     else if (temp==='NODE') {
       temp='';
       skillName.textContent='NODE';
