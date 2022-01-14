@@ -569,7 +569,7 @@ i {
 
 
   .player-name {
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.12rem;
@@ -581,7 +581,7 @@ i {
 
   .player-score {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1rem;
     font-weight: 100;
     color: #EB4D4D;
     margin-bottom: 3rem;
@@ -603,23 +603,24 @@ i {
     background-color: #f9813a;
     color: #fff;
     width: 40%;
-    height: 15%;
-    margin: 0 auto;
+    height: 10%;
+    margin: 6rem auto;
     padding: 0.5rem;
     text-align: center;
     border-radius: 0% 0%;
+
   }
 
   .player-current-label {
     text-transform: uppercase;
     margin-bottom: 0.625rem;
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     color: #ecf4f3;
     overflow: auto;
   }
 
   .player-current-score {
-    font-size: 1rem;
+    font-size: .6rem;
     overflow: auto;
   }
 
@@ -691,11 +692,11 @@ i {
   .dice {
     position: absolute;
     left: 50%;
-    top: 10rem;
+    top: 8rem;
     transform: translateX(-50%);
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
   }
 
   .winner {
