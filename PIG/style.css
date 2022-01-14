@@ -96,7 +96,7 @@ a {
 }
 
 .player-name {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
@@ -108,7 +108,7 @@ a {
 
 .player-score {
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 1000;
   color: #EB4D4D;
   margin-bottom: 2rem;
@@ -125,7 +125,7 @@ a {
 
 .active .player-name::after {
   content: "\2190";
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: relative;
   color: white;
   top: -0.3rem;
@@ -137,7 +137,7 @@ a {
   background-color: #f9813a;
   color: #fff;
   width: 45%;
-  height: 25%;
+  height: 35%;
   margin: 0 auto;
   padding: 0.75rem;
   text-align: center;
@@ -151,10 +151,11 @@ a {
   font-size: .75rem;
   color: #ecf4f3;
   overflow: auto;
+  font-size: .5rem;
 }
 
 .player-current-score {
-  font-size: 1.5rem;
+  font-size: 1rem;
   overflow: auto;
 }
 
@@ -167,7 +168,7 @@ button {
   background: none;
   border: none;
   font-family: Lato;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 300;
@@ -191,7 +192,7 @@ i {
   color: #91684a;
   display: inline-block;
   margin-right: 0.938rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1;
   vertical-align: text-top;
   margin-top: -0.25rem;
@@ -217,7 +218,7 @@ i {
 .dice {
   position: absolute;
   left: 50%;
-  top: 178px;
+  top: 8rem;
   transform: translateX(-50%);
   height: 15%;
   box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
@@ -259,7 +260,7 @@ i {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 60%;
   position: relative;
   transition: all 5s ease-in-out;
   font-size: .8rem;
@@ -297,7 +298,7 @@ i {
 .form__input {
   font-family: 'Roboto', sans-serif;
   color: #333;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0 auto;
   padding: 1.5rem 2rem;
   border-radius: 0.2rem;
