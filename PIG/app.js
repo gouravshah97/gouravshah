@@ -9,7 +9,7 @@ function newGame() {
 
 
 
-  if (player1.length <= 9 && player2.length <= 9 && player1.trim() !== "" && player2.trim() !== "") {
+  if (player1.length <= 6 && player2.length <= 6 && player1.trim() !== "" && player2.trim() !== "") {
     window.location.href = "#";
     init();
   }
