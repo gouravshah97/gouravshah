@@ -17,14 +17,18 @@ body {
 
 }
 
+
+
 .btn {
-  margin: 25px;
+  margin: 1.5rem;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
+  height: 12.5rem;
+  width: 12.5rem;
+  border: 0.625rem solid black;
   border-radius: 100%;
 }
+
+
 
 .game-over {
   background-color: red;
@@ -61,6 +65,46 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 1.25rem white;
   background-color: grey;
 }
+
+
+@media only screen and (max-width: 1650px) {
+        /* for sumo sized (mac) screens */
+        .btn {
+          margin: 1.5rem;
+          display: inline-block;
+          height: 10rem;
+          width: 10rem;
+          border: 0.5rem solid black;
+          border-radius: 100%;
+        }
+    }
+
+
+    @media only screen and (max-width: 1380px) {
+            /* for sumo sized (mac) screens */
+            .btn {
+              margin: 1.5rem;
+              display: inline-block;
+              height: 7rem;
+              width: 7rem;
+              border: 0.4rem solid black;
+              border-radius: 100%;
+            }
+        }
+
+
+
+        @media only screen and (max-width: 1030px) {
+                /* for sumo sized (mac) screens */
+                .btn {
+                  margin: 1rem;
+                  display: inline-block;
+                  height: 7rem;
+                  width: 7rem;
+                  border: 0.2rem solid black;
+                  border-radius: 100%;
+                }
+            }
