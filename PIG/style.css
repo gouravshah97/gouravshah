@@ -853,7 +853,7 @@ i {
   }
 
   .player-name {
-    font-size: 1.5rem;
+    font-size: .8rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.12rem;
@@ -865,7 +865,7 @@ i {
 
   .player-score {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: .8rem;
     font-weight: 100;
     color: #EB4D4D;
     margin-bottom: 3rem;
@@ -893,7 +893,7 @@ i {
     width: 50%;
     height: 15%;
     margin: 0 auto;
-    padding: 0.75rem;
+    padding: 0.5rem;
     text-align: center;
     border-radius: 0% 0%;
   }
@@ -901,13 +901,13 @@ i {
   .player-current-label {
     text-transform: uppercase;
     margin-bottom: 0.625rem;
-    font-size: 0.4rem;
+    font-size: 0.3rem;
     color: #ecf4f3;
     overflow: auto;
   }
 
   .player-current-score {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     overflow: auto;
   }
 
