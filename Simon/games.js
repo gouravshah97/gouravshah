@@ -50,10 +50,10 @@ function gameStart() {
     colorSequence = [];
     userInput = [];
     level = 0;
-  
+
     var audio = new Audio("sounds/start.mp3");
     audio.play();
-    $('h1').text('FOCUS!!!');
+    $('h1').text('Remember the Color Sequence and Press Accordingly !!!');
     setTimeout(function() {
 
       colorGenerator();
