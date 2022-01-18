@@ -1,3 +1,6 @@
+
+
+
 var scores, roundScores, activePlayer, player1 = "",
   player2 = "";
 
@@ -162,6 +165,18 @@ function winner() {
   document.querySelector('.btn-roll').style.visibility = 'hidden';
   document.querySelector('.btn-hold').style.visibility = 'hidden';
   document.querySelector('.dice').style.visibility = 'hidden';
+  if(document.querySelector('#player2-gamble')){
+    document.querySelector('#player2-gamble').remove();
+  }
+  if(document.querySelector('#player1-gamble')){
+    document.querySelector('#player1-gamble').remove();
+  }
+  if(document.querySelector('#player2-swap')){
+    document.querySelector('#player2-swap').remove();
+  }
+  if(document.querySelector('#player1-swap')){
+    document.querySelector('#player1-swap').remove();
+  }
 }
 
 function gamble(id) {
