@@ -245,7 +245,7 @@ i {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
+  /*transition: opacity 500ms;*/
   visibility: hidden;
   opacity: 0;
 }
@@ -262,7 +262,7 @@ i {
   border-radius: 5px;
   width: 60%;
   position: relative;
-  transition: all 5s ease-in-out;
+  /*transition: all 5s ease-in-out;*/
   font-size: .8rem;
 }
 
@@ -276,7 +276,7 @@ i {
   position: absolute;
   top: 20px;
   right: 30px;
-  transition: all 200ms;
+/*  transition: all 200ms;*/
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
@@ -291,7 +291,7 @@ i {
   max-height: 30%;
   overflow: auto;
   text-align: left;
-  color: #fb7813;
+  color: #000000 ;
   font-weight: 700;
 }
 
@@ -307,7 +307,7 @@ i {
   width: 90%;
   display: block;
   border-bottom: 0.3rem solid transparent;
-  transition: all 0.3s;
+  /*transition: all 0.3s;*/
 }
 
 .form__input:placeholder-shown+.form__label {
@@ -461,7 +461,7 @@ i {
     border-radius: 5px;
     width: 80%;
     position: relative;
-    transition: all 5s ease-in-out;
+  /*  transition: all 5s ease-in-out; */
     font-size: .8rem;
   }
   .swap {
@@ -661,7 +661,7 @@ i {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    /*transition: opacity 500ms;*/
     visibility: hidden;
     opacity: 0;
   }
@@ -678,7 +678,8 @@ i {
     border-radius: 5px;
     width: 80%;
     position: relative;
-    transition: all 5s ease-in-out;
+    /*transition: all 5s ease-in-out;*/
+
     font-size: .7rem;
 
   }
@@ -694,7 +695,7 @@ i {
     position: absolute;
     top: 20px;
     right: 30px;
-    transition: all 200ms;
+    /*transition: all 200ms;*/
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -709,7 +710,7 @@ i {
     max-height: 30%;
     overflow: auto;
     text-align: left;
-    color: #fb7813;
+    color: #000000;
     font-weight: 700;
   }
 
@@ -725,7 +726,7 @@ i {
     width: 90%;
     display: block;
     border-bottom: 0.3rem solid transparent;
-    transition: all 0.3s;
+  /*  transition: all 0.3s; */
   }
 
   .form__input:placeholder-shown+.form__label {
@@ -942,7 +943,7 @@ i {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    /*transition: opacity 500ms;*/
     visibility: hidden;
     opacity: 0;
   }
@@ -959,7 +960,7 @@ i {
     border-radius: 5px;
     width: 80%;
     position: relative;
-    transition: all 5s ease-in-out;
+    /*transition: all 5s ease-in-out;*/
     font-size: .8rem;
   }
 
@@ -974,7 +975,7 @@ i {
     position: absolute;
     top: 20px;
     right: 30px;
-    transition: all 200ms;
+  /*  transition: all 200ms;*/
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
@@ -989,7 +990,7 @@ i {
     max-height: 30%;
     overflow: auto;
     text-align: left;
-    color: #fb7813;
+    color: #000000;
     font-weight: 700;
   }
 
@@ -1005,7 +1006,7 @@ i {
     width: 90%;
     display: block;
     border-bottom: 0.3rem solid transparent;
-    transition: all 0.3s;
+    /*transition: all 0.3s;*/
   }
 
   .form__input:placeholder-shown+.form__label {
@@ -1233,7 +1234,8 @@ i {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+  /*  transition: opacity 500ms; */
+
     visibility: hidden;
     opacity: 0;
   }
@@ -1250,7 +1252,7 @@ i {
     border-radius: 5px;
     width: 80%;
     position: relative;
-    transition: all 5s ease-in-out;
+    /*transition: all 5s ease-in-out;*/
     font-size: .5rem;
 
   }
@@ -1266,7 +1268,7 @@ i {
     position: absolute;
     top: 20px;
     right: 30px;
-    transition: all 200ms;
+    /*transition: all 200ms;*/
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -1281,7 +1283,7 @@ i {
     max-height: 30%;
     overflow: auto;
     text-align: left;
-    color: #fb7813;
+    color: #000000;
     font-weight: 700;
   }
 
@@ -1297,7 +1299,7 @@ i {
     width: 90%;
     display: block;
     border-bottom: 0.3rem solid transparent;
-    transition: all 0.3s;
+    /*transition: all 0.3s;*/
   }
 
   .form__input:placeholder-shown+.form__label {
