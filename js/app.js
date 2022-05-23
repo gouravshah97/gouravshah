@@ -93,11 +93,11 @@
     }
     else if (skillName.textContent==='JAVASCRIPT') {
       temp='JAVASCRIPT';
-      skillName.textContent='75%';
+      skillName.textContent='70%';
     }
     else if (skillName.textContent==='REACT') {
       temp='REACT';
-      skillName.textContent='60%';
+      skillName.textContent='50%';
     }
     else if (skillName.textContent==='JAVA') {
       temp='JAVA';
@@ -117,7 +117,7 @@
     }
     else if (skillName.textContent==='SPRING FRAMEWORK') {
       temp='SPRING FRAMEWORK';
-      skillName.textContent='50%';
+      skillName.textContent='70%';
     }
 
 
